@@ -22,7 +22,7 @@ class Palindrome {
             num = num / 10;
         }
         System.out.println(reverse);
-        if (temp == reverse) {
+        if (temp== reverse) {
             return true;
         } else {
             return false;
